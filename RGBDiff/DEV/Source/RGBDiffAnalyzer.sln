@@ -1,0 +1,106 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColourSampleTesting", "ColourSampleTesting\ColourSampleTesting.csproj", "{70AD0F25-CD65-4022-A19B-9C3D734CB827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "silverspun.RGBDiff.Dal", "silverspun.RGBDiff.Dal\silverspun.RGBDiff.Dal.csproj", "{CB564E22-81A6-462E-B207-A5B151C36354}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGBDiffWinForms", "RGBDiffWinForms\RGBDiffWinForms.csproj", "{FEC9DDF9-F253-40D1-9864-4609D0976C55}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGBDiffWpf", "RGBDiffWpf\RGBDiffWpf.csproj", "{6CF775D6-704A-4B7C-9A3A-11DA8ECACE3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGBDiffLib", "RGBDiffLib\RGBDiffLib.csproj", "{2FBBD162-B75E-4536-A6EE-D11744844BCD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BE491579-F085-402B-BE67-B9CFB016B76F}"
+	ProjectSection(SolutionItems) = preProject
+		RGBDiff.lgp = RGBDiff.lgp
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gmf.Fpa.Imaging.RgbDiff", "WeightingLib\Gmf.Fpa.Imaging.RgbDiff.csproj", "{754E6B16-685E-49AF-864D-C6156637848D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RgbDiffWebsite", "RgbDiffWebsite\RgbDiffWebsite.csproj", "{B5EEDC1E-E663-49AB-8560-BABCD837BA17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mattlant.Imaging", "..\..\..\..\SSSmlCLibDev\ImagingGraphics\mattlant.Imaging_proj\DEV\DEV_CURRENT\mattlant.Imaging.csproj", "{E621D60D-6FEB-4766-BC8A-6DA261319274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "mattlant.Web", "..\..\..\..\SSSmlCLibDev\Web\mattlant.Web\DEV\DEV_CURRENT\mattlant.Web\mattlant.Web.csproj", "{97002106-E530-4C22-994A-E71F5AD1838B}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 10
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://www.silverspun.ca:8500/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = ColourSampleTesting\\ColourSampleTesting.csproj
+		SccProjectName1 = ColourSampleTesting
+		SccLocalPath1 = ColourSampleTesting
+		SccProjectUniqueName2 = silverspun.RGBDiff.Dal\\silverspun.RGBDiff.Dal.csproj
+		SccProjectName2 = silverspun.RGBDiff.Dal
+		SccLocalPath2 = silverspun.RGBDiff.Dal
+		SccProjectUniqueName3 = RGBDiffWinForms\\RGBDiffWinForms.csproj
+		SccProjectName3 = RGBDiffWinForms
+		SccLocalPath3 = RGBDiffWinForms
+		SccProjectUniqueName4 = RGBDiffWpf\\RGBDiffWpf.csproj
+		SccProjectName4 = RGBDiffWpf
+		SccLocalPath4 = RGBDiffWpf
+		SccProjectUniqueName5 = RGBDiffLib\\RGBDiffLib.csproj
+		SccProjectName5 = RGBDiffLib
+		SccLocalPath5 = RGBDiffLib
+		SccProjectUniqueName6 = WeightingLib\\Gmf.Fpa.Imaging.RgbDiff.csproj
+		SccProjectName6 = WeightingLib
+		SccLocalPath6 = WeightingLib
+		SccProjectUniqueName7 = RgbDiffWebsite\\RgbDiffWebsite.csproj
+		SccProjectName7 = RgbDiffWebsite
+		SccLocalPath7 = RgbDiffWebsite
+		SccProjectUniqueName8 = ..\\..\\..\\..\\SSSmlCLibDev\\ImagingGraphics\\mattlant.Imaging_proj\\DEV\\DEV_CURRENT\\mattlant.Imaging.csproj
+		SccProjectName8 = ../../../../SSSmlCLibDev/ImagingGraphics/mattlant.Imaging_proj/DEV/DEV_CURRENT
+		SccLocalPath8 = ..\\..\\..\\..\\SSSmlCLibDev\\ImagingGraphics\\mattlant.Imaging_proj\\DEV\\DEV_CURRENT
+		SccProjectUniqueName9 = ..\\..\\..\\..\\SSSmlCLibDev\\Web\\mattlant.Web\\DEV\\DEV_CURRENT\\mattlant.Web\\mattlant.Web.csproj
+		SccProjectName9 = ../../../../SSSmlCLibDev/Web/mattlant.Web/DEV/DEV_CURRENT/mattlant.Web
+		SccLocalPath9 = ..\\..\\..\\..\\SSSmlCLibDev\\Web\\mattlant.Web\\DEV\\DEV_CURRENT\\mattlant.Web
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70AD0F25-CD65-4022-A19B-9C3D734CB827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70AD0F25-CD65-4022-A19B-9C3D734CB827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70AD0F25-CD65-4022-A19B-9C3D734CB827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70AD0F25-CD65-4022-A19B-9C3D734CB827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB564E22-81A6-462E-B207-A5B151C36354}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB564E22-81A6-462E-B207-A5B151C36354}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB564E22-81A6-462E-B207-A5B151C36354}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB564E22-81A6-462E-B207-A5B151C36354}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEC9DDF9-F253-40D1-9864-4609D0976C55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEC9DDF9-F253-40D1-9864-4609D0976C55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEC9DDF9-F253-40D1-9864-4609D0976C55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEC9DDF9-F253-40D1-9864-4609D0976C55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6CF775D6-704A-4B7C-9A3A-11DA8ECACE3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6CF775D6-704A-4B7C-9A3A-11DA8ECACE3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6CF775D6-704A-4B7C-9A3A-11DA8ECACE3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6CF775D6-704A-4B7C-9A3A-11DA8ECACE3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2FBBD162-B75E-4536-A6EE-D11744844BCD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2FBBD162-B75E-4536-A6EE-D11744844BCD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2FBBD162-B75E-4536-A6EE-D11744844BCD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2FBBD162-B75E-4536-A6EE-D11744844BCD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{754E6B16-685E-49AF-864D-C6156637848D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{754E6B16-685E-49AF-864D-C6156637848D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{754E6B16-685E-49AF-864D-C6156637848D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{754E6B16-685E-49AF-864D-C6156637848D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5EEDC1E-E663-49AB-8560-BABCD837BA17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5EEDC1E-E663-49AB-8560-BABCD837BA17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5EEDC1E-E663-49AB-8560-BABCD837BA17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5EEDC1E-E663-49AB-8560-BABCD837BA17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E621D60D-6FEB-4766-BC8A-6DA261319274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E621D60D-6FEB-4766-BC8A-6DA261319274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E621D60D-6FEB-4766-BC8A-6DA261319274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E621D60D-6FEB-4766-BC8A-6DA261319274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97002106-E530-4C22-994A-E71F5AD1838B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97002106-E530-4C22-994A-E71F5AD1838B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97002106-E530-4C22-994A-E71F5AD1838B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97002106-E530-4C22-994A-E71F5AD1838B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

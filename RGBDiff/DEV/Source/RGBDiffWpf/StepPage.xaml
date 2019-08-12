@@ -1,0 +1,61 @@
+﻿<Page x:Class="RGBDiffWpf.StepPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="StepPage" Height="553" Width="674" Background="#FF808080">
+    <Grid >
+		<Grid.RowDefinitions>
+			<RowDefinition Height="0.582*" />
+			<RowDefinition Height="0.171*" />
+			<RowDefinition Height="0.247*"/>
+		</Grid.RowDefinitions>
+		<Grid Margin="12,12,0,9.846" Name="grid1" HorizontalAlignment="Left" Width="300" Height="300">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="100" />
+				<ColumnDefinition Width="100" />
+				<ColumnDefinition Width="100" />
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="100" />
+				<RowDefinition Height="100" />
+				<RowDefinition Height="100" />
+			</Grid.RowDefinitions>
+			<Rectangle Grid.RowSpan="1" Name="rectangle1" Stroke="Black" Fill="BurlyWood" />
+			<Rectangle x:Name="rectangle1_Copy" Stroke="Black" Fill="#FFCC39C2" />
+			<Rectangle x:Name="rectangle1_Copy1" Stroke="Black" Fill="#FFEA3B3B" Grid.Column="1" />
+			<Rectangle x:Name="rectangle1_Copy2" Stroke="Black" Fill="#FF1D42C6" Grid.Column="2" />
+			<Rectangle x:Name="rectangle1_Copy3" Stroke="Black" Fill="#FFFFEA5C" Grid.Column="2" Grid.Row="1" />
+			<Rectangle x:Name="rectangle1_Copy4" Stroke="Black" Fill="#FFDE87D0" Grid.Column="2" Grid.Row="2" />
+			<Rectangle x:Name="rectangle1_Copy5" Stroke="Black" Fill="#FF8DDE87" Grid.Column="1" Grid.Row="2" />
+			<Rectangle x:Name="rectangle1_Copy6" Stroke="Black" Fill="#FFA39480" Grid.Row="2" />
+			<Rectangle x:Name="rectangle1_Copy7" Stroke="Black" Fill="#FF87DECD" Grid.Row="1" />
+			<Rectangle x:Name="rectControlColour" Stroke="Black" Fill="#FFFFFFFF" Grid.Column="1" Grid.Row="1" />
+		</Grid>
+		<Grid HorizontalAlignment="Right" Margin="0,12.5,13,9.346" Name="grid2" Width="300" Height="300">
+			<Grid.ColumnDefinitions>
+				<ColumnDefinition Width="100" />
+				<ColumnDefinition Width="100" />
+				<ColumnDefinition Width="100" />
+			</Grid.ColumnDefinitions>
+			<Grid.RowDefinitions>
+				<RowDefinition Height="100" />
+				<RowDefinition Height="100" />
+				<RowDefinition Height="100" />
+			</Grid.RowDefinitions>
+			<Rectangle x:Name="rectangle1_Copy8" Stroke="Black" Fill="BurlyWood" />
+			<Rectangle x:Name="rectangle1_Copy9" Stroke="Black" Fill="#FFCC39C2" />
+			<Rectangle x:Name="rectangle1_Copy10" Stroke="Black" Fill="#FFEA3B3B" Grid.Column="1" />
+			<Rectangle x:Name="rectangle1_Copy11" Stroke="Black" Fill="#FF1D42C6" Grid.Column="2" />
+			<Rectangle x:Name="rectangle1_Copy12" Stroke="Black" Fill="#FFFFEA5C" Grid.Column="2" Grid.Row="1" />
+			<Rectangle x:Name="rectangle1_Copy13" Stroke="Black" Fill="#FFDE87D0" Grid.Column="2" Grid.Row="2" />
+			<Rectangle x:Name="rectangle1_Copy14" Stroke="Black" Fill="#FF8DDE87" Grid.Column="1" Grid.Row="2" />
+			<Rectangle x:Name="rectangle1_Copy15" Stroke="Black" Fill="#FFA39480" Grid.Row="2" />
+			<Rectangle x:Name="rectangle1_Copy16" Stroke="Black" Fill="#FF87DECD" Grid.Row="1" />
+			<Rectangle x:Name="rectTargetColour" Stroke="Black" Fill="#FFFFFFFF" Grid.Column="1" Grid.Row="1" />
+		</Grid>
+		<Button HorizontalAlignment="Right" Width="102" Content="Next Shade" Grid.Row="1" Margin="0,-5.346,13,0" x:Name="btnNextColour" Height="36" VerticalAlignment="Top" Click="btnNextColour_Click" />
+		<Button HorizontalAlignment="Right" Margin="0,-5.346,211,0" Width="102" Content="Previous Shade" Grid.Row="1" Height="36" VerticalAlignment="Top" x:Name="btnPrevColour" Click="btnPrevColour_Click" />
+		<Button Margin="0,38.154,68,17.349" Content="IT'S A MATCH!" Grid.Row="1" HorizontalAlignment="Right" Width="200" x:Name="btnMatch" Click="btnMatch_Click" />
+		<TextBlock HorizontalAlignment="Left" Margin="12,38.154,0,35.409" Width="88.75" Grid.Row="1" TextWrapping="Wrap" x:Name="lblPercentComplete"><Run Language="en-ca" Text="0% Complete"/></TextBlock>
+		<TextBlock Margin="8,-13.349,6,8" Grid.Row="2" TextWrapping="Wrap" Background="#FFFBFBFB" Padding="8,8,8,0"><Run Language="en-ca" Text="Use this page to match shades of colours. The goal is to match the central colour on the right, with the central colour on the left. However, you need to make sure that you only get as close only so far as to make a "/><Run FontStyle="Italic" FontWeight="Bold" Language="en-ca" Text="&quot;visual&quot; "/><Run Language="en-ca" Text="match of the two colours. If you continue to click next even though you already have a match, the data becomes less accurate. Please pay careful attention as you cycle through the next shade(s), as some shades may be so small in change that it is not noticable."/><LineBreak/><Run Language="en-ca" Text=""/><LineBreak/><Run Language="en-ca" Text="If you see a colour that is totally different, please continue to click &quot;Next Shade&quot; a couple of times and it will become similar."/></TextBlock>
+	</Grid>
+</Page>

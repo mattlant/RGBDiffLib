@@ -1,0 +1,29 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="RgbDiffWeb.master.cs" Inherits="RgbDiffWebsite.RgbDiffWeb" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title></title>
+	<asp:ContentPlaceHolder ID="head" runat="server">
+	</asp:ContentPlaceHolder>
+	<style type="text/css">
+.style1 {
+	font-family: Arial, Helvetica, sans-serif;
+	width:100%;
+}
+</style>
+</head>
+<body style="color: #000; background-color: #BBB; text-align:center; width:100%;">
+	<form id="form1" runat="server" class="style1">
+	<div>
+		<h2>
+			<b>RgbDiff Analyzer.</b></h2>
+		<br />
+	</div>
+	<div style="color: #000; background-color: #BBB; width:100%; ">
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+		</asp:ContentPlaceHolder>
+	</div>
+	</form>
+</body>
+</html>

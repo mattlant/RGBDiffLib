@@ -1,0 +1,33 @@
+﻿<Window x:Class="ColourSampleTesting.Window1"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="Colour Selection Testing" Height="379" Width="441">
+    <Grid>
+		<StackPanel Margin="6,0,6,0" Name="stackPanel1" VerticalAlignment="Stretch">
+			<Rectangle Height="100" Name="rectColour" Stroke="Black" Width="200" HorizontalAlignment="Center" VerticalAlignment="Center" Fill="Red" Margin="0,8,0,0" />
+			
+			<Label Height="28" Name="lblOutOfGamut" Visibility="Hidden" HorizontalAlignment="Center">Out Of Gamut</Label>
+			<StackPanel Height="40" Name="stackRGB" Orientation="Horizontal">
+				<Label Height="28" Name="label1" Width="60">RGB</Label>
+				<TextBox Height="23" Name="txtR" Width="80" AcceptsTab="False" AutoWordSelection="True">255</TextBox>
+				<TextBox Height="23" Name="txtG" Width="80" AutoWordSelection="True">0</TextBox>
+				<TextBox Height="23" Name="txtB" Width="80" AutoWordSelection="True">0</TextBox>
+				<Button Height="23" Name="btnUpdateRGB" Width="75" Click="btnUpdateRGB_Click">Update</Button>
+			</StackPanel>
+			<StackPanel Height="40" Name="stackxyY" Orientation="Horizontal">
+				<Label Height="28" Name="label2" Width="60">xyY</Label>
+				<TextBox Height="23" Name="txtxyY_x" Width="80" AutoWordSelection="True">0</TextBox>
+				<TextBox Height="23" Name="txtxyY_y" Width="80" AutoWordSelection="True">0</TextBox>
+				<TextBox Height="23" Name="txtxyY_Y" Width="80" AutoWordSelection="True">0</TextBox>
+				<Button Height="23" Name="btnUpdatexyY" Width="75" Click="btnUpdatexyY_Click">Update</Button>
+			</StackPanel>
+			<StackPanel Height="40" Name="stackXYZ" Orientation="Horizontal" >
+				<Label Height="28" Name="label3" Width="60">XYZ</Label>
+				<TextBox Height="23" Name="txtXYZ_X" Width="80" AutoWordSelection="True">0</TextBox>
+				<TextBox Height="23" Name="txtXYZ_Y" Width="80" AutoWordSelection="True">0</TextBox>
+				<TextBox Height="23" Name="txtXYZ_Z" Width="80" AutoWordSelection="True">0</TextBox>
+				<Button Height="23" Name="button1" Width="75" Click="button1_Click">Update</Button>
+			</StackPanel>
+		</StackPanel>
+	</Grid>
+</Window>
